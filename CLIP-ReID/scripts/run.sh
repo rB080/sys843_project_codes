@@ -1,0 +1,3 @@
+CUDA_VISIBLE_DEVICES=1 python test_clipreid.py --config_file configs/person/vit_clipreid.yml TEST.WEIGHT '/export/livia/home/vision/Rbhattacharya/work/CLIP-ReID/outputs/downloaded_models/Duke_clipreid_ViT-B-16_60.pth'
+#CUDA_VISIBLE_DEVICES=1 python tta_clipreid.py --config_file configs/person/vit_clipreid.yml TEST.WEIGHT '/export/livia/home/vision/Rbhattacharya/work/CLIP-ReID/outputs/train_msmt17_cam12345/ViT-B-16_60.pth'
+#CUDA_VISIBLE_DEVICES=0 python train_clipreid.py --config_file configs/person/vit_clipreid.yml
